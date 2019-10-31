@@ -63,6 +63,14 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
         $(".summary .divider").hide();
     }
 
+    // 抹去power by
+    function setCopyright(){
+        var str = $(".copyright").text();
+        var word = "powered by Gitbook";
+        str = str.replace(new RegExp(word, "ig"), " ");
+        $(".copyright").text(str);
+    }
+
     gitbook.events.on('start', function() {
 
     });
@@ -70,5 +78,6 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
     gitbook.events.on('page.change', function() {
         setBase();
         generateSectionNavigator();
+        setCopyright();
     });
 });
