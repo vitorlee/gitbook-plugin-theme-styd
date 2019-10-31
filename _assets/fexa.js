@@ -61,6 +61,13 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
         //去掉gitbook-link
         $(".summary .gitbook-link").hide();
         $(".summary .divider").hide();
+
+        // remove favicon icon
+        var favicon = gitbook.state.config.pluginsConfig["theme-fexa"]["favicon"] || "https://pro.styd.cn/favicon.ico"
+        $("link[rel='shortcut icon']").remove();
+        $("head").append(
+          '<link href="'+ favicon +'" rel="shortcut icon" type="image/x-icon" />'
+        );
     }
 
     // 抹去power by
