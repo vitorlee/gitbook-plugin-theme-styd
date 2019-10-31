@@ -71,13 +71,21 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
         $(".copyright").text(str);
     }
 
-    gitbook.events.on('start', function() {
+    function setPageTitle() {
+      var pageTitle = document.title;
+      var pageWord = " · GitBook";
+      pageTitle = pageTitle.replace(new RegExp(pageWord, "ig"), " ");
+      document.title = pageTitle;
+    }
 
+    gitbook.events.on('start', function() {
+        
     });
 
     gitbook.events.on('page.change', function() {
         setBase();
         generateSectionNavigator();
         setCopyright();
+        setPageTitle();
     });
 });
