@@ -1,6 +1,6 @@
 # Gitbook theme for styd Docs
 
-![Image](https://github.com/vitorlee/gitbook-plugin-theme-fexa/blob/master/preview.png)
+![Image](https://github.com/vitorlee/gitbook-plugin-theme-styd/blob/master/preview.png)
 
 ## Usage
 
