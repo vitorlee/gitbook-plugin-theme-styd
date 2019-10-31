@@ -21,6 +21,6 @@
     "url": "git+https://github.com/vitorlee/gitbook-plugin-theme-styd.git"
   },
   "scripts": {},
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT"
 }
