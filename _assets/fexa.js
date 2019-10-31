@@ -13,6 +13,9 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
 
     //生成内容导航
     function generateSectionNavigator(){
+        var meta = document.createElement("meta");
+        meta.setAttribute("referrer", "no-referrer");
+        document.getElementsByTagName("head")[0].appendChild(meta);
         $(".page-inner .markdown-section").find("h1,h2,h3").each(function(){
             var cls="anchor-h1";
             if($(this).is("h2")){
