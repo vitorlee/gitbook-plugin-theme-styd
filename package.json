@@ -1,0 +1,27 @@
+{
+  "name": "gitbook-plugin-theme-styd",
+  "author": {
+    "name": "stydfrontend"
+  },
+  "bugs": {
+    "url": "https://github.com/vitorlee/gitbook-plugin-theme-fexa/issues"
+  },
+  "dependencies": {},
+  "description": "Gitbook theme for STYD docs",
+  "engines": {
+    "gitbook": ">=3.0.0"
+  },
+  "homepage": "https://github.com/vitorlee/gitbook-plugin-theme-fexa#readme",
+  "keywords": [
+    "gitbook",
+    "theme",
+    "fexa"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitorlee/gitbook-plugin-theme-fexa.git"
+  },
+  "scripts": {},
+  "version": "1.0.0"
+}
