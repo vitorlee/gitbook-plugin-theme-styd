@@ -25,7 +25,7 @@ module.exports = {
                   process.cwd(),
                   output,
                   "gitbook",
-                  "gitbook-plugin-theme-fexa",
+                  "gitbook-plugin-theme-styd",
                   "favicon.ico"
                 );
                 if (fs.existsSync(faviconPath)) {
@@ -57,7 +57,7 @@ module.exports = {
                   process.cwd(),
                   output,
                   "gitbook",
-                  "gitbook-plugin-theme-fexa",
+                  "gitbook-plugin-theme-styd",
                   "logo.png"
                 );
                 if (fs.existsSync(logoPath)) {
