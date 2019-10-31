@@ -1,8 +1,6 @@
 {
   "name": "gitbook-plugin-theme-styd",
-  "author": {
-    "name": "stydfrontend"
-  },
+  "author": "stydfrontend",
   "bugs": {
     "url": "https://github.com/vitorlee/gitbook-plugin-theme-styd/issues"
   },
@@ -23,5 +21,6 @@
     "url": "git+https://github.com/vitorlee/gitbook-plugin-theme-styd.git"
   },
   "scripts": {},
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "license": "MIT"
 }

@@ -9,7 +9,7 @@ Add the theme to your book's configuration `book.json` or `book.js`:
 ```js
 { 
     "plugins": [
-        "theme-fexa"
+        "theme-styd"
     ],
     "variables": {
         "themeFexa":{
